@@ -1,0 +1,134 @@
+* {
+  	box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  	font-size: 16px;
+  	-webkit-font-smoothing: antialiased;
+}
+
+.inscription {
+  margin-top: 10px;
+  color: cyan;
+}
+
+.retour {
+  margin-top: 10px;
+  color: red;
+}
+
+table {
+  border-collapse:collapse
+}
+
+tr {
+  width: 20%;
+  background-color: #eeeeee20;
+  padding: 2% 2% 2% 2%;
+}
+
+td {
+  width: 80%;
+  padding: 2% 2% 2% 2%;
+  background-color: #f8f8f820;
+}
+
+.num1 {
+  	background-image: url("img/coffrefort.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 107%;
+}
+
+.num2 {
+    background-image: url("img/pauvre.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.num0 {
+    background-image: url("img/epicwin.jpg");
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: 100%;
+
+}
+
+.accepted {
+
+  color: black;
+}
+
+.num4 {
+    background-image: url("img/accessdenied.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.hache1 {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
+
+.bjr {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.login {
+  	width: 400px;
+    background-color: #33333300;
+  	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  	margin: 100px auto;
+}
+.login h1 {
+  	text-align: center;
+  	color: #CFCC0F;
+  	font-size: 24px;
+  	padding: 20px 0 20px 0;
+  	border-bottom: 1px solid #33333300;
+}
+.login form {
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	padding-top: 20px;
+    background-color: #33333300;
+}
+.login form label {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	width: 50px;
+  	height: 50px;
+  	background-color: #3274d6;
+  	color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+  	width: 310px;
+  	height: 50px;
+  	border: 1px solid #dee0e4;
+  	margin-bottom: 20px;
+  	padding: 0 15px;
+}
+.login form input[type="submit"] {
+  	width: 100%;
+  	padding: 15px;
+ 	margin-top: 20px;
+  	background-color: #3274d6;
+  	border: 0;
+  	cursor: pointer;
+  	font-weight: bold;
+  	color: #ffffff;
+  	transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+	background-color: #2868c7;
+  	transition: background-color 0.2s;
+}
+
+.boutonalacon {
+  text-align: right;
+}
